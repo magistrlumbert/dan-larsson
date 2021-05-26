@@ -1,0 +1,71 @@
+type product {
+  gtin: ID!
+  name: String
+  is_part_of: [is_part_of]
+  is_a_substance_in: [is_substance_in]
+}
+
+type Genre {
+    name: String
+    movies: [product] @relation(name:"IN_GENRE", direction: IN)
+}
+
+type substance {
+  CAS: ID!
+  substancename: String!
+  density: Int
+  is_a_substance_in: [is_substance_in]
+}
+
+type mnfplant {
+  reviewId: ID!
+  name: String
+  Country: String
+  Adress: String
+  transports: [mnfplant] @relation(name: "TRANSPORTS", direction: OUT)
+}
+
+type is_part_of @relation(name: "IS_A_PART_OF") {
+    processing_type: String
+    amount: Int
+    from: product
+    to: product
+}
+
+type is_substance_in @relation(name: "IS_A_SUBSTANCE_IN") {
+    processing_type: String
+    amount: Int
+    unit: String
+    from: product
+    to: product
+}
+
+type connection{
+    identity: String
+    start: String
+    end: String
+    type: String
+    processing_type: String
+    amount: String
+    unit: String
+    from: String
+    to: String
+}
+
+type transports @relation(name: "TRANSPORTS") {
+    processing_type: String
+    amount: Int
+    unit: String
+    from: mnfplant
+    to: mnfplant
+}
+
+type response {
+    substance: substance
+    rel_list: [connection]
+    product: product
+}
+
+type Query {
+    count(offset: Int=0, first: Int=10):[response]
+}

@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="562e481c-aa74-4aaf-8e1c-a550bd703726" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="RatingsChart.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-react/src/components/RatingsChart.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="55" column="26" lean-forward="true" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
+              <folding>
+                <element signature="e#81#127#0" expanded="true" />
+                <marker date="1622051278178" expanded="true" signature="330:639" ph="{...}" />
+                <marker date="1622051278178" expanded="true" signature="336:341" ph="count...count" />
+                <marker date="1622051278178" expanded="true" signature="336:635" ph="count...{&#10;      substance {&#10;        substancename&#10;        CAS&#10;      }&#10;      product {&#10;        gtin&#10;        name&#10;      }&#10;      rel_list {&#10;        identity&#10;        start&#10;        end&#10;        from&#10;        to&#10;        processing_type&#10;        amount&#10;        unit&#10;        type&#10;        __typename&#10;      }&#10;    }" />
+                <marker date="1622051278178" expanded="true" signature="342:635" ph="{...}" />
+                <marker date="1622051278178" expanded="true" signature="350:359" ph="substance...substance" />
+                <marker date="1622051278178" expanded="true" signature="350:403" ph="substance...{&#10;        substancename&#10;        CAS&#10;      }" />
+                <marker date="1622051278178" expanded="true" signature="360:403" ph="{...}" />
+                <marker date="1622051278178" expanded="true" signature="370:383" ph="substancename...substancename" />
+                <marker date="1622051278178" expanded="true" signature="392:395" ph="CAS...CAS" />
+                <marker date="1622051278178" expanded="true" signature="410:417" ph="product...product" />
+                <marker date="1622051278178" expanded="true" signature="410:453" ph="product...{&#10;        gtin&#10;        name&#10;      }" />
+                <marker date="1622051278178" expanded="true" signature="418:453" ph="{...}" />
+                <marker date="1622051278178" expanded="true" signature="428:432" ph="gtin...gtin" />
+                <marker date="1622051278178" expanded="true" signature="441:445" ph="name...name" />
+                <marker date="1622051278178" expanded="true" signature="460:468" ph="rel_list...rel_list" />
+                <marker date="1622051278178" expanded="true" signature="460:629" ph="rel_list...{&#10;        identity&#10;        start&#10;        end&#10;        from&#10;        to&#10;        processing_type&#10;        amount&#10;        unit&#10;        type&#10;        __typename&#10;      }" />
+                <marker date="1622051278178" expanded="true" signature="469:629" ph="{...}" />
+                <marker date="1622051278178" expanded="true" signature="479:487" ph="identity...identity" />
+                <marker date="1622051278178" expanded="true" signature="496:501" ph="start...start" />
+                <marker date="1622051278178" expanded="true" signature="510:513" ph="end...end" />
+                <marker date="1622051278178" expanded="true" signature="522:526" ph="from...from" />
+                <marker date="1622051278178" expanded="true" signature="535:537" ph="to...to" />
+                <marker date="1622051278178" expanded="true" signature="546:561" ph="processing_type...processing_type" />
+                <marker date="1622051278178" expanded="true" signature="570:576" ph="amount...amount" />
+                <marker date="1622051278178" expanded="true" signature="585:589" ph="unit...unit" />
+                <marker date="1622051278178" expanded="true" signature="598:602" ph="type...type" />
+                <marker date="1622051278178" expanded="true" signature="611:621" ph="__typename...__typename" />
+                <marker date="1622051278178" expanded="true" signature="1690:1894" ph="{...return (&#10;    &lt;React.Fragment&gt;&#10;      &lt;Title&gt;Ratings Distribution&lt;/Title&gt;&#10;      &lt;ResponsiveContainer&gt;&#10;        {data &amp;&amp; !error &amp;&amp; !loading &amp;&amp; &lt;div&gt;{data.productCount}&lt;/div&gt;}&#10;      &lt;/ResponsiveContainer&gt;&#10;    &lt;/React.Fragment&gt;&#10;  )&#10;}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dashboard.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-react/src/components/Dashboard.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="82">
+              <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web-react/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1406">
+              <caret line="219" column="53" lean-forward="false" selection-start-line="219" selection-start-column="53" selection-end-line="219" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="schema.graphql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/src/schema.graphql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="50" column="4" lean-forward="true" selection-start-line="50" selection-start-column="4" selection-end-line="51" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resolvers.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/src/resolvers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Total Users</find>
+      <find>usercount</find>
+      <find>Integer</find>
+      <find>ratingsCount</find>
+      <find>relationship</find>
+      <find>7687</find>
+      <find>178.128.173.232</find>
+      <find>@relation</find>
+      <find>@relationship</find>
+      <find>makeAugmentedSchema</find>
+      <find>relation</find>
+      <find>typeDefs</find>
+      <find>substancename</find>
+      <find>typeName</find>
+      <find>substance</find>
+      <find>product</find>
+      <find>connection</find>
+      <find>console.log</find>
+      <find>is_part_of</find>
+      <find>console.l</find>
+      <find>RatingsChart</find>
+      <find>theme</find>
+      <find>stringify</find>
+      <find>Ratings Distribution</find>
+      <find>Dashboard</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>@relationship</replace>
+      <replace>@relation</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/api/build/.env" />
+        <option value="$PROJECT_DIR$/api/.env" />
+        <option value="$PROJECT_DIR$/api/build/index.js" />
+        <option value="$PROJECT_DIR$/api/src/index.js" />
+        <option value="$PROJECT_DIR$/api/src/schema.graphql" />
+        <option value="$PROJECT_DIR$/api/src/resolvers.js" />
+        <option value="$PROJECT_DIR$/web-react/src/components/Dashboard.js" />
+        <option value="$PROJECT_DIR$/web-react/src/components/RatingsChart.js" />
+        <option value="$PROJECT_DIR$/web-react/src/App.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/api/node_modules" />
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+    <handled-path value="$PROJECT_DIR$/web-react/node_modules" />
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="67" />
+    <option name="y" value="25" />
+    <option name="width" value="896" />
+    <option name="height" value="555" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Code quality toolsJavaScript</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript function metricsJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript validity issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Naming conventionsJavaScript</id>
+          </State>
+          <State>
+            <id>Node.jsJavaScript</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Eslint</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="grandstack-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="grandstack-app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="grandstack-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="grandstack-app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="grandstack-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="grandstack-app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="grandstack-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="grandstack-app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web-react" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="jsgraphql-schema-editor-notification" value="false" />
+    <property name="com.intellij.lang.jsgraphql.ide.injection.JSGraphQLLanguageInjectionUtil.gql" value="apollo" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.selected.package.standard" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api/src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="562e481c-aa74-4aaf-8e1c-a550bd703726" name="Default" comment="" />
+      <created>1621780272999</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621780272999</updated>
+      <workItem from="1621780274536" duration="10581000" />
+      <workItem from="1621833815810" duration="5079000" />
+      <workItem from="1621849064168" duration="14909000" />
+      <workItem from="1621925662300" duration="17743000" />
+      <workItem from="1621958801647" duration="5624000" />
+      <workItem from="1622016219518" duration="13642000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="67578000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="957" height="743" extended-state="6" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="GraphQL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13071896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3872549" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15257958" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24917673" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/api/node_modules/apollo-server-env/src/index.d.ts" />
+        <option value="$PROJECT_DIR$/api/node_modules/apollo-env/src/fetch/index.d.ts" />
+        <option value="$PROJECT_DIR$/api/node_modules/@josephg/resolvable/index.js" />
+        <option value="$PROJECT_DIR$/api/node_modules/@josephg/resolvable/index.d.ts" />
+        <option value="$PROJECT_DIR$/api/node_modules/@josephg/resolvable/index.js.map" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web-react/src/components/RatingsChart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <folding>
+            <element signature="e#81#127#0" expanded="true" />
+            <marker date="1622051278178" expanded="true" signature="330:639" ph="{...}" />
+            <marker date="1622051278178" expanded="true" signature="336:341" ph="count...count" />
+            <marker date="1622051278178" expanded="true" signature="336:635" ph="count...{&#10;      substance {&#10;        substancename&#10;        CAS&#10;      }&#10;      product {&#10;        gtin&#10;        name&#10;      }&#10;      rel_list {&#10;        identity&#10;        start&#10;        end&#10;        from&#10;        to&#10;        processing_type&#10;        amount&#10;        unit&#10;        type&#10;        __typename&#10;      }&#10;    }" />
+            <marker date="1622051278178" expanded="true" signature="342:635" ph="{...}" />
+            <marker date="1622051278178" expanded="true" signature="350:359" ph="substance...substance" />
+            <marker date="1622051278178" expanded="true" signature="350:403" ph="substance...{&#10;        substancename&#10;        CAS&#10;      }" />
+            <marker date="1622051278178" expanded="true" signature="360:403" ph="{...}" />
+            <marker date="1622051278178" expanded="true" signature="370:383" ph="substancename...substancename" />
+            <marker date="1622051278178" expanded="true" signature="392:395" ph="CAS...CAS" />
+            <marker date="1622051278178" expanded="true" signature="410:417" ph="product...product" />
+            <marker date="1622051278178" expanded="true" signature="410:453" ph="product...{&#10;        gtin&#10;        name&#10;      }" />
+            <marker date="1622051278178" expanded="true" signature="418:453" ph="{...}" />
+            <marker date="1622051278178" expanded="true" signature="428:432" ph="gtin...gtin" />
+            <marker date="1622051278178" expanded="true" signature="441:445" ph="name...name" />
+            <marker date="1622051278178" expanded="true" signature="460:468" ph="rel_list...rel_list" />
+            <marker date="1622051278178" expanded="true" signature="460:629" ph="rel_list...{&#10;        identity&#10;        start&#10;        end&#10;        from&#10;        to&#10;        processing_type&#10;        amount&#10;        unit&#10;        type&#10;        __typename&#10;      }" />
+            <marker date="1622051278178" expanded="true" signature="469:629" ph="{...}" />
+            <marker date="1622051278178" expanded="true" signature="479:487" ph="identity...identity" />
+            <marker date="1622051278178" expanded="true" signature="496:501" ph="start...start" />
+            <marker date="1622051278178" expanded="true" signature="510:513" ph="end...end" />
+            <marker date="1622051278178" expanded="true" signature="522:526" ph="from...from" />
+            <marker date="1622051278178" expanded="true" signature="535:537" ph="to...to" />
+            <marker date="1622051278178" expanded="true" signature="546:561" ph="processing_type...processing_type" />
+            <marker date="1622051278178" expanded="true" signature="570:576" ph="amount...amount" />
+            <marker date="1622051278178" expanded="true" signature="585:589" ph="unit...unit" />
+            <marker date="1622051278178" expanded="true" signature="598:602" ph="type...type" />
+            <marker date="1622051278178" expanded="true" signature="611:621" ph="__typename...__typename" />
+            <marker date="1622051278178" expanded="true" signature="1690:1894" ph="{...return (&#10;    &lt;React.Fragment&gt;&#10;      &lt;Title&gt;Ratings Distribution&lt;/Title&gt;&#10;      &lt;ResponsiveContainer&gt;&#10;        {data &amp;&amp; !error &amp;&amp; !loading &amp;&amp; &lt;div&gt;{data.productCount}&lt;/div&gt;}&#10;      &lt;/ResponsiveContainer&gt;&#10;    &lt;/React.Fragment&gt;&#10;  )&#10;}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/schema.graphql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="54" column="12" lean-forward="false" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="12" lean-forward="false" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/resolvers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="30" column="33" lean-forward="false" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-react/src/components/RatingsChart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <folding>
+            <element signature="e#81#127#0" expanded="true" />
+            <marker date="1622051278178" expanded="true" signature="330:639" ph="{...}" />
+            <marker date="1622051278178" expanded="true" signature="336:341" ph="count...count" />
+            <marker date="1622051278178" expanded="true" signature="336:635" ph="count...{&#10;      substance {&#10;        substancename&#10;        CAS&#10;      }&#10;      product {&#10;        gtin&#10;        name&#10;      }&#10;      rel_list {&#10;        identity&#10;        start&#10;        end&#10;        from&#10;        to&#10;        processing_type&#10;        amount&#10;        unit&#10;        type&#10;        __typename&#10;      }&#10;    }" />
+            <marker date="1622051278178" expanded="true" signature="342:635" ph="{...}" />
+            <marker date="1622051278178" expanded="true" signature="350:359" ph="substance...substance" />
+            <marker date="1622051278178" expanded="true" signature="350:403" ph="substance...{&#10;        substancename&#10;        CAS&#10;      }" />
+            <marker date="1622051278178" expanded="true" signature="360:403" ph="{...}" />
+            <marker date="1622051278178" expanded="true" signature="370:383" ph="substancename...substancename" />
+            <marker date="1622051278178" expanded="true" signature="392:395" ph="CAS...CAS" />
+            <marker date="1622051278178" expanded="true" signature="410:417" ph="product...product" />
+            <marker date="1622051278178" expanded="true" signature="410:453" ph="product...{&#10;        gtin&#10;        name&#10;      }" />
+            <marker date="1622051278178" expanded="true" signature="418:453" ph="{...}" />
+            <marker date="1622051278178" expanded="true" signature="428:432" ph="gtin...gtin" />
+            <marker date="1622051278178" expanded="true" signature="441:445" ph="name...name" />
+            <marker date="1622051278178" expanded="true" signature="460:468" ph="rel_list...rel_list" />
+            <marker date="1622051278178" expanded="true" signature="460:629" ph="rel_list...{&#10;        identity&#10;        start&#10;        end&#10;        from&#10;        to&#10;        processing_type&#10;        amount&#10;        unit&#10;        type&#10;        __typename&#10;      }" />
+            <marker date="1622051278178" expanded="true" signature="469:629" ph="{...}" />
+            <marker date="1622051278178" expanded="true" signature="479:487" ph="identity...identity" />
+            <marker date="1622051278178" expanded="true" signature="496:501" ph="start...start" />
+            <marker date="1622051278178" expanded="true" signature="510:513" ph="end...end" />
+            <marker date="1622051278178" expanded="true" signature="522:526" ph="from...from" />
+            <marker date="1622051278178" expanded="true" signature="535:537" ph="to...to" />
+            <marker date="1622051278178" expanded="true" signature="546:561" ph="processing_type...processing_type" />
+            <marker date="1622051278178" expanded="true" signature="570:576" ph="amount...amount" />
+            <marker date="1622051278178" expanded="true" signature="585:589" ph="unit...unit" />
+            <marker date="1622051278178" expanded="true" signature="598:602" ph="type...type" />
+            <marker date="1622051278178" expanded="true" signature="611:621" ph="__typename...__typename" />
+            <marker date="1622051278178" expanded="true" signature="1690:1894" ph="{...return (&#10;    &lt;React.Fragment&gt;&#10;      &lt;Title&gt;Ratings Distribution&lt;/Title&gt;&#10;      &lt;ResponsiveContainer&gt;&#10;        {data &amp;&amp; !error &amp;&amp; !loading &amp;&amp; &lt;div&gt;{data.productCount}&lt;/div&gt;}&#10;      &lt;/ResponsiveContainer&gt;&#10;    &lt;/React.Fragment&gt;&#10;  )&#10;}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/schema.graphql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="954">
+          <caret line="53" column="26" lean-forward="false" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="12" lean-forward="true" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/resolvers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-react/src/components/RatingsChart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding>
+            <element signature="e#81#127#0" expanded="true" />
+            <marker date="1622051278178" expanded="true" signature="330:639" ph="{...}" />
+            <marker date="1622051278178" expanded="true" signature="336:341" ph="count...count" />
+            <marker date="1622051278178" expanded="true" signature="336:635" ph="count...{&#10;      substance {&#10;        substancename&#10;        CAS&#10;      }&#10;      product {&#10;        gtin&#10;        name&#10;      }&#10;      rel_list {&#10;        identity&#10;        start&#10;        end&#10;        from&#10;        to&#10;        processing_type&#10;        amount&#10;        unit&#10;        type&#10;        __typename&#10;      }&#10;    }" />
+            <marker date="1622051278178" expanded="true" signature="342:635" ph="{...}" />
+            <marker date="1622051278178" expanded="true" signature="350:359" ph="substance...substance" />
+            <marker date="1622051278178" expanded="true" signature="350:403" ph="substance...{&#10;        substancename&#10;        CAS&#10;      }" />
+            <marker date="1622051278178" expanded="true" signature="360:403" ph="{...}" />
+            <marker date="1622051278178" expanded="true" signature="370:383" ph="substancename...substancename" />
+            <marker date="1622051278178" expanded="true" signature="392:395" ph="CAS...CAS" />
+            <marker date="1622051278178" expanded="true" signature="410:417" ph="product...product" />
+            <marker date="1622051278178" expanded="true" signature="410:453" ph="product...{&#10;        gtin&#10;        name&#10;      }" />
+            <marker date="1622051278178" expanded="true" signature="418:453" ph="{...}" />
+            <marker date="1622051278178" expanded="true" signature="428:432" ph="gtin...gtin" />
+            <marker date="1622051278178" expanded="true" signature="441:445" ph="name...name" />
+            <marker date="1622051278178" expanded="true" signature="460:468" ph="rel_list...rel_list" />
+            <marker date="1622051278178" expanded="true" signature="460:629" ph="rel_list...{&#10;        identity&#10;        start&#10;        end&#10;        from&#10;        to&#10;        processing_type&#10;        amount&#10;        unit&#10;        type&#10;        __typename&#10;      }" />
+            <marker date="1622051278178" expanded="true" signature="469:629" ph="{...}" />
+            <marker date="1622051278178" expanded="true" signature="479:487" ph="identity...identity" />
+            <marker date="1622051278178" expanded="true" signature="496:501" ph="start...start" />
+            <marker date="1622051278178" expanded="true" signature="510:513" ph="end...end" />
+            <marker date="1622051278178" expanded="true" signature="522:526" ph="from...from" />
+            <marker date="1622051278178" expanded="true" signature="535:537" ph="to...to" />
+            <marker date="1622051278178" expanded="true" signature="546:561" ph="processing_type...processing_type" />
+            <marker date="1622051278178" expanded="true" signature="570:576" ph="amount...amount" />
+            <marker date="1622051278178" expanded="true" signature="585:589" ph="unit...unit" />
+            <marker date="1622051278178" expanded="true" signature="598:602" ph="type...type" />
+            <marker date="1622051278178" expanded="true" signature="611:621" ph="__typename...__typename" />
+            <marker date="1622051278178" expanded="true" signature="1690:1894" ph="{...return (&#10;    &lt;React.Fragment&gt;&#10;      &lt;Title&gt;Ratings Distribution&lt;/Title&gt;&#10;      &lt;ResponsiveContainer&gt;&#10;        {data &amp;&amp; !error &amp;&amp; !loading &amp;&amp; &lt;div&gt;{data.productCount}&lt;/div&gt;}&#10;      &lt;/ResponsiveContainer&gt;&#10;    &lt;/React.Fragment&gt;&#10;  )&#10;}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="29" column="29" lean-forward="false" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/schema.graphql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-react/src/components/RatingsChart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="e#81#127#0" expanded="true" />
+            <marker date="1622051278178" expanded="true" signature="330:639" ph="{...}" />
+            <marker date="1622051278178" expanded="true" signature="336:341" ph="count...count" />
+            <marker date="1622051278178" expanded="true" signature="336:635" ph="count...{&#10;      substance {&#10;        substancename&#10;        CAS&#10;      }&#10;      product {&#10;        gtin&#10;        name&#10;      }&#10;      rel_list {&#10;        identity&#10;        start&#10;        end&#10;        from&#10;        to&#10;        processing_type&#10;        amount&#10;        unit&#10;        type&#10;        __typename&#10;      }&#10;    }" />
+            <marker date="1622051278178" expanded="true" signature="342:635" ph="{...}" />
+            <marker date="1622051278178" expanded="true" signature="350:359" ph="substance...substance" />
+            <marker date="1622051278178" expanded="true" signature="350:403" ph="substance...{&#10;        substancename&#10;        CAS&#10;      }" />
+            <marker date="1622051278178" expanded="true" signature="360:403" ph="{...}" />
+            <marker date="1622051278178" expanded="true" signature="370:383" ph="substancename...substancename" />
+            <marker date="1622051278178" expanded="true" signature="392:395" ph="CAS...CAS" />
+            <marker date="1622051278178" expanded="true" signature="410:417" ph="product...product" />
+            <marker date="1622051278178" expanded="true" signature="410:453" ph="product...{&#10;        gtin&#10;        name&#10;      }" />
+            <marker date="1622051278178" expanded="true" signature="418:453" ph="{...}" />
+            <marker date="1622051278178" expanded="true" signature="428:432" ph="gtin...gtin" />
+            <marker date="1622051278178" expanded="true" signature="441:445" ph="name...name" />
+            <marker date="1622051278178" expanded="true" signature="460:468" ph="rel_list...rel_list" />
+            <marker date="1622051278178" expanded="true" signature="460:629" ph="rel_list...{&#10;        identity&#10;        start&#10;        end&#10;        from&#10;        to&#10;        processing_type&#10;        amount&#10;        unit&#10;        type&#10;        __typename&#10;      }" />
+            <marker date="1622051278178" expanded="true" signature="469:629" ph="{...}" />
+            <marker date="1622051278178" expanded="true" signature="479:487" ph="identity...identity" />
+            <marker date="1622051278178" expanded="true" signature="496:501" ph="start...start" />
+            <marker date="1622051278178" expanded="true" signature="510:513" ph="end...end" />
+            <marker date="1622051278178" expanded="true" signature="522:526" ph="from...from" />
+            <marker date="1622051278178" expanded="true" signature="535:537" ph="to...to" />
+            <marker date="1622051278178" expanded="true" signature="546:561" ph="processing_type...processing_type" />
+            <marker date="1622051278178" expanded="true" signature="570:576" ph="amount...amount" />
+            <marker date="1622051278178" expanded="true" signature="585:589" ph="unit...unit" />
+            <marker date="1622051278178" expanded="true" signature="598:602" ph="type...type" />
+            <marker date="1622051278178" expanded="true" signature="611:621" ph="__typename...__typename" />
+            <marker date="1622051278178" expanded="true" signature="1690:1894" ph="{...return (&#10;    &lt;React.Fragment&gt;&#10;      &lt;Title&gt;Ratings Distribution&lt;/Title&gt;&#10;      &lt;ResponsiveContainer&gt;&#10;        {data &amp;&amp; !error &amp;&amp; !loading &amp;&amp; &lt;div&gt;{data.productCount}&lt;/div&gt;}&#10;      &lt;/ResponsiveContainer&gt;&#10;    &lt;/React.Fragment&gt;&#10;  )&#10;}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/resolvers.js" />
+    <entry file="file://$PROJECT_DIR$/api/src/schema.graphql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="54" column="31" lean-forward="false" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-react/src/components/RatingsChart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="20" />
+          <folding>
+            <element signature="e#81#127#0" expanded="true" />
+            <marker date="1622051278178" expanded="true" signature="330:639" ph="{...}" />
+            <marker date="1622051278178" expanded="true" signature="336:341" ph="count...count" />
+            <marker date="1622051278178" expanded="true" signature="336:635" ph="count...{&#10;      substance {&#10;        substancename&#10;        CAS&#10;      }&#10;      product {&#10;        gtin&#10;        name&#10;      }&#10;      rel_list {&#10;        identity&#10;        start&#10;        end&#10;        from&#10;        to&#10;        processing_type&#10;        amount&#10;        unit&#10;        type&#10;        __typename&#10;      }&#10;    }" />
+            <marker date="1622051278178" expanded="true" signature="342:635" ph="{...}" />
+            <marker date="1622051278178" expanded="true" signature="350:359" ph="substance...substance" />
+            <marker date="1622051278178" expanded="true" signature="350:403" ph="substance...{&#10;        substancename&#10;        CAS&#10;      }" />
+            <marker date="1622051278178" expanded="true" signature="360:403" ph="{...}" />
+            <marker date="1622051278178" expanded="true" signature="370:383" ph="substancename...substancename" />
+            <marker date="1622051278178" expanded="true" signature="392:395" ph="CAS...CAS" />
+            <marker date="1622051278178" expanded="true" signature="410:417" ph="product...product" />
+            <marker date="1622051278178" expanded="true" signature="410:453" ph="product...{&#10;        gtin&#10;        name&#10;      }" />
+            <marker date="1622051278178" expanded="true" signature="418:453" ph="{...}" />
+            <marker date="1622051278178" expanded="true" signature="428:432" ph="gtin...gtin" />
+            <marker date="1622051278178" expanded="true" signature="441:445" ph="name...name" />
+            <marker date="1622051278178" expanded="true" signature="460:468" ph="rel_list...rel_list" />
+            <marker date="1622051278178" expanded="true" signature="460:629" ph="rel_list...{&#10;        identity&#10;        start&#10;        end&#10;        from&#10;        to&#10;        processing_type&#10;        amount&#10;        unit&#10;        type&#10;        __typename&#10;      }" />
+            <marker date="1622051278178" expanded="true" signature="469:629" ph="{...}" />
+            <marker date="1622051278178" expanded="true" signature="479:487" ph="identity...identity" />
+            <marker date="1622051278178" expanded="true" signature="496:501" ph="start...start" />
+            <marker date="1622051278178" expanded="true" signature="510:513" ph="end...end" />
+            <marker date="1622051278178" expanded="true" signature="522:526" ph="from...from" />
+            <marker date="1622051278178" expanded="true" signature="535:537" ph="to...to" />
+            <marker date="1622051278178" expanded="true" signature="546:561" ph="processing_type...processing_type" />
+            <marker date="1622051278178" expanded="true" signature="570:576" ph="amount...amount" />
+            <marker date="1622051278178" expanded="true" signature="585:589" ph="unit...unit" />
+            <marker date="1622051278178" expanded="true" signature="598:602" ph="type...type" />
+            <marker date="1622051278178" expanded="true" signature="611:621" ph="__typename...__typename" />
+            <marker date="1622051278178" expanded="true" signature="1690:1894" ph="{...return (&#10;    &lt;React.Fragment&gt;&#10;      &lt;Title&gt;Ratings Distribution&lt;/Title&gt;&#10;      &lt;ResponsiveContainer&gt;&#10;        {data &amp;&amp; !error &amp;&amp; !loading &amp;&amp; &lt;div&gt;{data.productCount}&lt;/div&gt;}&#10;      &lt;/ResponsiveContainer&gt;&#10;    &lt;/React.Fragment&gt;&#10;  )&#10;}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/schema.graphql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="34" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-react/src/components/UserCount.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-react/node_modules/recharts/es6/chart/BarChart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="8" column="15" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/graphql/type/schema.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="60" column="13" lean-forward="false" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/node_modules/@neo4j/graphql/dist/classes/Neo4jGraphQL.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/build/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/build/functions/graphql/graphql.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="41" lean-forward="false" selection-start-line="0" selection-start-column="41" selection-end-line="0" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/graphql-schema.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="3" lean-forward="false" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/build/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="50" lean-forward="true" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="36" column="12" lean-forward="false" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/schema.graphql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="50" column="4" lean-forward="true" selection-start-line="50" selection-start-column="4" selection-end-line="51" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/resolvers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-react/node_modules/recharts/es6/component/ResponsiveContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="30" column="4" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-react/src/components/RatingsChart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="55" column="26" lean-forward="true" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
+          <folding>
+            <element signature="e#81#127#0" expanded="true" />
+            <marker date="1622051278178" expanded="true" signature="330:639" ph="{...}" />
+            <marker date="1622051278178" expanded="true" signature="336:341" ph="count...count" />
+            <marker date="1622051278178" expanded="true" signature="336:635" ph="count...{&#10;      substance {&#10;        substancename&#10;        CAS&#10;      }&#10;      product {&#10;        gtin&#10;        name&#10;      }&#10;      rel_list {&#10;        identity&#10;        start&#10;        end&#10;        from&#10;        to&#10;        processing_type&#10;        amount&#10;        unit&#10;        type&#10;        __typename&#10;      }&#10;    }" />
+            <marker date="1622051278178" expanded="true" signature="342:635" ph="{...}" />
+            <marker date="1622051278178" expanded="true" signature="350:359" ph="substance...substance" />
+            <marker date="1622051278178" expanded="true" signature="350:403" ph="substance...{&#10;        substancename&#10;        CAS&#10;      }" />
+            <marker date="1622051278178" expanded="true" signature="360:403" ph="{...}" />
+            <marker date="1622051278178" expanded="true" signature="370:383" ph="substancename...substancename" />
+            <marker date="1622051278178" expanded="true" signature="392:395" ph="CAS...CAS" />
+            <marker date="1622051278178" expanded="true" signature="410:417" ph="product...product" />
+            <marker date="1622051278178" expanded="true" signature="410:453" ph="product...{&#10;        gtin&#10;        name&#10;      }" />
+            <marker date="1622051278178" expanded="true" signature="418:453" ph="{...}" />
+            <marker date="1622051278178" expanded="true" signature="428:432" ph="gtin...gtin" />
+            <marker date="1622051278178" expanded="true" signature="441:445" ph="name...name" />
+            <marker date="1622051278178" expanded="true" signature="460:468" ph="rel_list...rel_list" />
+            <marker date="1622051278178" expanded="true" signature="460:629" ph="rel_list...{&#10;        identity&#10;        start&#10;        end&#10;        from&#10;        to&#10;        processing_type&#10;        amount&#10;        unit&#10;        type&#10;        __typename&#10;      }" />
+            <marker date="1622051278178" expanded="true" signature="469:629" ph="{...}" />
+            <marker date="1622051278178" expanded="true" signature="479:487" ph="identity...identity" />
+            <marker date="1622051278178" expanded="true" signature="496:501" ph="start...start" />
+            <marker date="1622051278178" expanded="true" signature="510:513" ph="end...end" />
+            <marker date="1622051278178" expanded="true" signature="522:526" ph="from...from" />
+            <marker date="1622051278178" expanded="true" signature="535:537" ph="to...to" />
+            <marker date="1622051278178" expanded="true" signature="546:561" ph="processing_type...processing_type" />
+            <marker date="1622051278178" expanded="true" signature="570:576" ph="amount...amount" />
+            <marker date="1622051278178" expanded="true" signature="585:589" ph="unit...unit" />
+            <marker date="1622051278178" expanded="true" signature="598:602" ph="type...type" />
+            <marker date="1622051278178" expanded="true" signature="611:621" ph="__typename...__typename" />
+            <marker date="1622051278178" expanded="true" signature="1690:1894" ph="{...return (&#10;    &lt;React.Fragment&gt;&#10;      &lt;Title&gt;Ratings Distribution&lt;/Title&gt;&#10;      &lt;ResponsiveContainer&gt;&#10;        {data &amp;&amp; !error &amp;&amp; !loading &amp;&amp; &lt;div&gt;{data.productCount}&lt;/div&gt;}&#10;      &lt;/ResponsiveContainer&gt;&#10;    &lt;/React.Fragment&gt;&#10;  )&#10;}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-react/src/components/Dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-react/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1406">
+          <caret line="219" column="53" lean-forward="false" selection-start-line="219" selection-start-column="53" selection-end-line="219" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
