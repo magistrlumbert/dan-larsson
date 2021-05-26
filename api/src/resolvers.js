@@ -1,5 +1,3 @@
-import { neo4jgraphql } from 'neo4j-graphql-js'
-
 const resolvers = {
   Query: {
     count: async (_, __, ctx) => {
@@ -24,6 +22,7 @@ const resolvers = {
               const { identity, start, end, type } = relationship
               const { amount, unit, processing_type } = relationship.properties
               const connection = {
+                id: '0',
                 identity: identity.toString(),
                 start: start.toString(),
                 end: end.toString(),
