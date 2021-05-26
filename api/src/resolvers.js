@@ -1,13 +1,6 @@
 import { neo4jgraphql } from 'neo4j-graphql-js'
 
 const resolvers = {
-  connection: {
-    __resolveType: (obj) => {
-      // if (obj.amount) return 'is_part_of'
-      // if (obj.age) return 'is_substance_in'
-      return null
-    },
-  },
   Query: {
     count: async (_, __, ctx) => {
       let session = ctx.driver.session()
