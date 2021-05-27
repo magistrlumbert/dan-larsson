@@ -5,11 +5,6 @@ type product {
   is_a_substance_in: [is_substance_in]
 }
 
-type Genre {
-    name: String
-    movies: [product] @relation(name:"IN_GENRE", direction: IN)
-}
-
 type substance {
   CAS: ID!
   substancename: String!

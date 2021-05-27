@@ -4,7 +4,7 @@ const resolvers = {
   connection: {
     __resolveType: (obj) => {
       // if (obj.amount) return 'is_part_of'
-      // if (obj.age) return 'is_substance_in'
+      //  if (obj.age) return 'is_substance_in'
       return null
     },
   },
